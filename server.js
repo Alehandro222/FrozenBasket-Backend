@@ -16,7 +16,7 @@ const app = express();
 // Allow your Netlify domain
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? 'frozenbasket.netlify.app' 
+    ? 'https://frozenbasket.netlify.app' 
     : 'http://localhost:5173'
 }));
 
